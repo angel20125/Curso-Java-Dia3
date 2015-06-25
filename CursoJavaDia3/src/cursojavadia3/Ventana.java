@@ -106,16 +106,17 @@ public class Ventana extends javax.swing.JFrame {
     }//GEN-LAST:event_btSaludar1ActionPerformed
 
     private void btSaludar1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btSaludar1MouseClicked
-       String valor = JOptionPane.showInputDialog("Di tu nombre");
-        
-        if(valor != null){
+
+        String valor = JOptionPane.showInputDialog("Di tu nombre");
+
+        if (valor != null) {
             JOptionPane.showMessageDialog(null, " hola "
-            + valor
-            +" Mcuho gusto "
+                    + valor
+                    + " Mcuho gusto "
             );
         }
-  
-        
+
+
     }//GEN-LAST:event_btSaludar1MouseClicked
 
     private void tfNombreActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tfNombreActionPerformed
@@ -123,7 +124,7 @@ public class Ventana extends javax.swing.JFrame {
     }//GEN-LAST:event_tfNombreActionPerformed
 
     private void btSaludar2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btSaludar2MouseClicked
-       
+
     }//GEN-LAST:event_btSaludar2MouseClicked
 
     private void btSaludar2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btSaludar2ActionPerformed
